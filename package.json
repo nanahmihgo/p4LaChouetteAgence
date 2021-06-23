@@ -1,0 +1,21 @@
+{
+  "name": "p4",
+  "version": "1.0.0",
+  "description": "p4",
+  "main": "index.js",
+  "dependencies": {
+    "sass": "^1.34.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "prefix": "postcss ./style.css --use autoprefixer -o prefixed.css -w"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
+// npm init pour générer le package.json
+//"prefix": "postcss <chemin fichier entrant> --use autoprefixer -d <chemin fichier sortant> -w"
+
+
+
