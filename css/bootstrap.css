@@ -1661,6 +1661,22 @@ mark {
     text-align: center
 }
 
+.text-modif {
+    font-size: 1.6em;
+    width: 600px
+}
+
+.text-citation {
+    font-size: 1.5em;
+    font-style: italic;
+    width: 550px
+}
+
+.autor {
+    font-size: 0.6em;
+    font-style: normal
+}
+
 .text-justify {
     text-align: justify
 }
@@ -2066,7 +2082,10 @@ pre code {
     position: relative;
     min-height: 1px;
     padding-right: 15px;
-    padding-left: 15px
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center
 }
 
 .col-xs-1,

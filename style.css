@@ -701,7 +701,11 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 h2 {
@@ -1028,10 +1032,42 @@ h4 {
     }
 }
 
-@media (max-width: 400px) {
+@media (min-width: 320px) and (max-width: 550px) {
     .bloc {
         padding-left: 0;
         padding-right: 0;
+    }
+
+    .text-modif {
+        width: 320px;
+    }
+    
+    .text-citation {
+        width: 320px;
+    }
+    
+    .autor {
+        width: 320px;
+    }
+
+    .footer-modif {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 320px;
+        margin-top: 5%;
+    }
+}
+
+@media (min-width: 550px) and (max-width: 1980px) {
+    .footer-modif {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start;
+        width: 100%;
+        margin-top: 5%;
     }
 }
 
