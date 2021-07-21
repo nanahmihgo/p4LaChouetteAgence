@@ -32,6 +32,11 @@ ExpiresDefault "access plus 2 days"
 </IfModule>
 # END Expires Headers
 
+Redirect 301 /https://nanahmihgo.github.io/vincentFischer_4_20052021/
+
+
+
+
 # MOD_DEFLATE COMPRESSION
 SetOutputFilter DEFLATE
 AddOutputFilterByType DEFLATE text/html text/css text/plain text/xml application/x-javascript application/x-httpd-php
