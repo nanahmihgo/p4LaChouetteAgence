@@ -4,4 +4,4 @@ Disallow: /nogooglebot/
 User-agent: *
 Allow: /
 
-Sitemap: https://nanahmihgo.github.io/vincentFischer_4_20052021/sitemap.xml
+Sitemap: https://nanahmihgo.github.io/p4LaChouetteAgence/sitemap.xml
