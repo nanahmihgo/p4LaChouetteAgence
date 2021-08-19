@@ -14,8 +14,3 @@
   "license": "ISC"
 }
 
-// npm init pour générer le package.json
-//"prefix": "postcss <chemin fichier entrant> --use autoprefixer -d <chemin fichier sortant> -w"
-
-
-
