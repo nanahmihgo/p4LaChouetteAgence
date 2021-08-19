@@ -100,8 +100,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: #FFFFFF;
-    text-shadow: 0.2px 0.2px 2px pink;
+    color: #000000;
 }
 
 .d-bloc button:hover {
@@ -743,8 +742,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF;
-    text-shadow: 0.2px 0.2px 2px pink;
+    color: #000000;
 }
 
 .portfolio-thumb {
