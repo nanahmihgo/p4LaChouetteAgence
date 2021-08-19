@@ -101,6 +101,7 @@ a:hover {
 
 .d-bloc {
     color: #FFFFFF;
+    text-shadow: 1px 1px 2px pink;
 }
 
 .d-bloc button:hover {
@@ -134,6 +135,7 @@ a:hover {
 .d-bloc h6 a,
 .d-bloc p a {
     color: rgba(255, 255, 255, .6);
+    font-size: 24px;
 }
 
 .d-bloc .a-btn:hover,
@@ -678,7 +680,7 @@ a {
 }
 
 p {
-    font-size: 12px;
+    font-size: 11px;
 }
 
 .tight-width-whitespace {
@@ -709,12 +711,12 @@ p {
     align-items: center;
 }
 
-h2 {
+h3 {
     font-size: 22px;
     line-height: 1.4em;
 }
 
-h3 {
+h2 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
@@ -742,6 +744,7 @@ h4 {
 
 .white {
     color: #FFFFFF;
+    text-shadow: 1px 1px 2px pink;
 }
 
 .portfolio-thumb {
