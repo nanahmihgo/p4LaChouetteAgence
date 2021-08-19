@@ -101,6 +101,7 @@ a:hover {
 
 .d-bloc {
     color: #000000;
+    font-weight: bold;
 }
 
 .d-bloc button:hover {
@@ -779,7 +780,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #EF7339;
+    background-color: #F3976C;
 }
 
 .tc-white {
